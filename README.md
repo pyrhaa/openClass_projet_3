@@ -1,0 +1,3 @@
+# openClass_projet_3
+
+read me in progress ...
