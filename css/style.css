@@ -21,6 +21,11 @@ main {
   margin: 0px;
 }
 
+.presa-img img {
+  width: 100%;
+  height: 250px;
+}
+
 div {
   background-color: yellow;
 }
