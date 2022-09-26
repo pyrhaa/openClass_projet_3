@@ -1,9 +1,24 @@
+/*Mobile*/
+
 header {
   background-color: pink;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+
+#logo {
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 main {
   background-color: grey;
+  margin: 0px;
 }
 
 div {
@@ -16,4 +31,8 @@ section {
 
 footer {
   background-color: blue;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 20px;
 }
