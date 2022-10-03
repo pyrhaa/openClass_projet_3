@@ -1,4 +1,4 @@
-.header__img img {
+.header__img img{
   object-fit: cover;
   width: 100%;
   height: 250px;
@@ -40,9 +40,7 @@
 .meals h4 {
   margin: 0;
 }
-.starter h3,
-.dish h3,
-.dessert h3 {
+.starter h3, .dish h3, .dessert h3 {
   padding-left: 10px;
   text-transform: uppercase;
   margin-bottom: 5px;
