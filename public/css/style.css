@@ -36,4 +36,107 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+@keyframes grow {
+  0%,
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+  50% {
+    -webkit-transform: scaleY(1.8);
+    transform: scaleY(1.8);
+  }
+}
+
+@keyframes loader {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fill {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.main__header {
+  text-align: center;
+}
+
+.main__header #logo {
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 200px;
+}
+
+footer {
+  background-color: #353535;
+  padding: 25px;
+  color: white;
+}
+
+h3 {
+  font-family: 'Shrikhand', 'sans-serif';
+  padding: 5px 0 20px 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+ul li {
+  padding: 5px 0 5px 0;
+}
+ul li a {
+  color: white;
+}
+
+.fa-hands-helping {
+  margin-right: 5px;
+}
+
+.about {
+  background: #f6f6f6;
+  text-align: center;
+  width: 100%;
+  padding: 40px 0;
+}
+.about h2 {
+  font-weight: bold;
+}
+.about p {
+  color: #4d4d4d;
+}
+
+.howto__title {
+  padding-left: 10px;
+}
+
+@media screen and (min-width: 1280px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
 /*# sourceMappingURL=style.css.map */
