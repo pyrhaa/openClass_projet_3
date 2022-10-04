@@ -9,14 +9,14 @@
     width: 60%;
   }
 }
-.number {
+.howto__number {
   @include howto-number;
   @include tablet {
     right: 0;
     top: -15px;
   }
 }
-.howto__icon i {
+.howto__icon {
   color: #b2b2b2;
   margin: 0 30px;
 }

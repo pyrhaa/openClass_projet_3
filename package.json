@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "sass": "./node_modules/.bin/sass --watch ./sass/main.scss:./css/style.css"
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
   },
   "devDependencies": {
     "sass": "^1.55.0"

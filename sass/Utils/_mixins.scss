@@ -35,14 +35,14 @@
   height: 25px;
   position: relative;
   right: 10px;
-
 }
 @mixin howto-btn {
   margin: 0 20px 20px 20px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background: #f6f6f6;
+  //   background: #f6f6f6;
+  background: yellow;
   border: 5px solid #f6f6f6;
   border-radius: 10px;
   box-shadow: 4px 4px 6px #fff;
@@ -120,7 +120,7 @@
     transform: translate(-50px);
   }
   &:hover .fa-check-circle {
-    transform: rotate(360deg) ;
+    transform: rotate(360deg);
   }
 }
 
@@ -145,17 +145,17 @@
   }
 }
 @mixin tablet {
-  @media screen and (min-width:map-get($breakpoints, tablet)){
+  @media screen and (min-width: map-get($breakpoints, tablet)) {
     @content;
   }
 }
 @mixin desktop {
-  @media screen and (min-width:map-get($breakpoints, desktop)){
+  @media screen and (min-width: map-get($breakpoints, desktop)) {
     @content;
   }
 }
 @mixin large {
-  @media screen and (min-width:map-get($breakpoints, large)){
+  @media screen and (min-width: map-get($breakpoints, large)) {
     @content;
   }
 }
