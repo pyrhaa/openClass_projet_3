@@ -131,7 +131,6 @@ ul li a {
 
 .howto__title {
   padding-left: 10px;
-  color: aqua;
 }
 @media screen and (min-width: 1280px) {
   .howto__title {
@@ -165,7 +164,7 @@ ul li a {
 }
 
 .howto__icon {
-  color: pink;
+  color: #b2b2b2;
   margin: 0 30px;
 }
 
