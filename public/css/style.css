@@ -134,6 +134,7 @@ ul li a {
 }
 .about p {
   color: #4d4d4d;
+  margin: 0 25px;
 }
 
 .howto {
@@ -478,12 +479,12 @@ ul li a {
 }
 
 .new {
-  display: inline-block;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 25px;
-  width: 70px;
+  font-size: 15px;
+  height: 35px;
+  width: 80px;
   background-color: #99e2d0;
   color: #008766;
   position: absolute;
