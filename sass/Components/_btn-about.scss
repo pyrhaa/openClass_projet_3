@@ -1,4 +1,4 @@
-.btn__about button{
+.btn__about button {
   @include btn-about;
   &:hover {
     background-color: lighten(#9356dc, 10%);

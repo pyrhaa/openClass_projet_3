@@ -75,7 +75,12 @@ body, html {
   }
 }
 .main__header {
-  text-align: center;
+  height: 63px;
+  padding: 20px 0px 10px 0px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main__header #logo {
@@ -117,6 +122,8 @@ ul li a {
 }
 
 .about {
+  display: flex;
+  flex-direction: column;
   background: #f6f6f6;
   text-align: center;
   width: 100%;
@@ -147,10 +154,10 @@ ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #9356DC;
+  background: #9356dc;
   color: #fff;
   border-radius: 50%;
-  border: 2px solid #9356DC;
+  border: 2px solid #9356dc;
   width: 25px;
   height: 25px;
   position: relative;
@@ -379,7 +386,7 @@ ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   width: 50px;
   height: 63px;
   border-top-right-radius: 15px;
@@ -398,7 +405,7 @@ ul li a {
 
 .line {
   width: 40px;
-  border: 2px solid #99E2D0;
+  border: 2px solid #99e2d0;
   margin-left: 10px;
 }
 
@@ -422,14 +429,18 @@ ul li a {
 }
 
 .btn__about button {
-  background-image: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  background-image: linear-gradient(to top, #9356dc, #ff79da);
+  cursor: pointer;
+  padding: 15px 15px;
   border: 1px solid transparent;
   border-radius: 30px;
-  padding: 10px 5px;
+  text-align: center;
   color: #fff;
-  font-weight: bold;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
   box-shadow: 4px 4px 6px #aaa;
-  cursor: pointer;
 }
 .btn__about button:hover {
   background-color: #ae80e5;
@@ -465,8 +476,8 @@ ul li a {
 
 .new {
   color: #008766;
-  background: #99E2D0;
-  border: 5px solid #99E2D0;
+  background: #99e2d0;
+  border: 5px solid #99e2d0;
   border-radius: 5px;
   position: absolute;
   right: 1%;
@@ -576,14 +587,18 @@ ul li a {
 }
 
 .btn__order button {
-  background-image: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  background-image: linear-gradient(to top, #9356dc, #ff79da);
+  cursor: pointer;
+  padding: 15px 15px;
   border: 1px solid transparent;
   border-radius: 30px;
-  padding: 10px 5px;
+  text-align: center;
   color: #fff;
-  font-weight: bold;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
   box-shadow: 4px 4px 6px #aaa;
-  cursor: pointer;
   margin: 30px 0;
   padding: 20px;
   width: 50%;
