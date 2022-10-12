@@ -412,6 +412,7 @@ ul li a {
 
 .maps__search input {
   border: none;
+  outline: none;
   background: #eaeaea;
   font-size: 1rem;
   padding: 20px 5px 20px 5px;
