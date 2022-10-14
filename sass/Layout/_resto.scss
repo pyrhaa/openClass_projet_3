@@ -3,7 +3,7 @@
     width: 100%;
   }
 }
-.restaurant__title h3 {
+.restaurant__title h2 {
   padding: 30px 0px 0px 10px;
   @include tablet {
     text-align: center;
@@ -16,7 +16,7 @@
   }
 }
 .card img {
-  @include card-img ;
+  @include card-img;
 }
 .main__restaurant {
   background: #f2f2f2;
