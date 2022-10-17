@@ -460,11 +460,13 @@ ul li a {
   justify-content: start;
   align-items: center;
   background: #f6f6f6;
-  border: 5px solid #f6f6f6;
-  border-radius: 20px;
-  box-shadow: 4px 4px 6px #fff;
+  border-radius: 15px;
   font-weight: bold;
   box-shadow: 4px 4px 6px #e9e9e9;
+  cursor: pointer;
+}
+.howto__button:hover {
+  background-color: #f5edff;
 }
 @media screen and (min-width: 768px) {
   .howto__button {

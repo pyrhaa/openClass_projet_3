@@ -1,5 +1,9 @@
 .howto__button {
   @include howto-btn;
+  cursor: pointer;
+  &:hover {
+    background-color: $color-primary-ligth;
+  }
   @include tablet {
     display: flex;
     justify-content: start;
