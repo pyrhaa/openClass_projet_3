@@ -2,7 +2,7 @@
   padding: 40px 10px 40px 10px;
   @include tablet {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     padding: 0 20px;
   }
@@ -29,10 +29,6 @@
 }
 .howto__number {
   @include howto-number;
-  @include tablet {
-    right: 0;
-    top: -15px;
-  }
 }
 .howto__icon {
   color: #b2b2b2;

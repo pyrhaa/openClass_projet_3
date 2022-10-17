@@ -146,7 +146,7 @@ ul li a {
 @media screen and (min-width: 768px) {
   .howto {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     padding: 0 20px;
   }
@@ -188,12 +188,6 @@ ul li a {
   height: 25px;
   position: relative;
   right: 10px;
-}
-@media screen and (min-width: 768px) {
-  .howto__number {
-    right: 0;
-    top: -15px;
-  }
 }
 
 .howto__icon {
@@ -474,10 +468,10 @@ ul li a {
 }
 @media screen and (min-width: 768px) {
   .howto__button {
-    margin: 20px 0;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
+    align-items: center;
+    width: 500px;
   }
 }
 @media screen and (min-width: 1280px) {
