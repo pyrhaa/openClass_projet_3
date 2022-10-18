@@ -3,6 +3,9 @@
   cursor: pointer;
   &:hover {
     background-color: $color-primary-ligth;
+    .fas {
+      color: $color-primary;
+    }
   }
   @include tablet {
     display: flex;
@@ -13,4 +16,8 @@
   @include desktop {
     margin: 70px 0;
   }
+}
+
+.active {
+  background-color: $color-primary-ligth;
 }

@@ -195,6 +195,10 @@ ul li a {
   margin: 0 30px;
 }
 
+.fa-store {
+  color: #9356dc;
+}
+
 @media screen and (min-width: 768px) {
   .restaurant__title {
     width: 100%;
@@ -468,6 +472,9 @@ ul li a {
 .howto__button:hover {
   background-color: #f5edff;
 }
+.howto__button:hover .fas {
+  color: #9356dc;
+}
 @media screen and (min-width: 768px) {
   .howto__button {
     display: flex;
@@ -480,6 +487,10 @@ ul li a {
   .howto__button {
     margin: 70px 0;
   }
+}
+
+.active {
+  background-color: #f5edff;
 }
 
 .new {
